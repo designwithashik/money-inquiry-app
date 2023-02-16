@@ -24,24 +24,23 @@
             <h3 class="font-bold  text-center my-5">Expenses</h3>
             <div class="grid grid-cols-2 w-3/4 gap-5">
                 <label for="income" class="font-medium text-end">Travel :</label>
-                <input class="bg-zinc-300" type="number" name=""  id="income">
+                <input class="bg-zinc-300" type="number" name=""  id="travel-cost">
                 <label for="income" class="font-medium text-end">Food :</label>
-                <input class="bg-zinc-300" type="number" name=""  id="income">
+                <input class="bg-zinc-300" type="number" name=""  id="food-cost">
                 <label for="income" class="font-medium text-end">Extra :</label>
-                <input class="bg-zinc-300" type="number" name=""  id="income">
+                <input class="bg-zinc-300" type="number" name=""  id="extra-cost">
             </div>
-            <div class="flex justify-center mt-5"><button class="px-8 py-2 bg-blue-400 font-semibold text-white rounded" type="submit">Calculate</button></div>
-            <h3 class="font-bold  text-center my-5">Total Expenses : <span>0</span></h3>
-            <h3 class="font-bold  text-center my-5">Balance : <span>0</span> </h3>
+            <div class="flex justify-center mt-5"><button id="calculate-btn" class="px-8 py-2 bg-blue-400 font-semibold text-white rounded" type="submit">Calculate</button></div>
+            <h3 class="font-bold  text-center my-5">Total Expenses : <span id="total-cost">0</span></h3>
+            <h3 class="font-bold  text-center my-5">Balance : <span id="balance">0</span> </h3>
             <div class="flex justify-evenly mx-5">
                 <h4 class="py-2">Save: </h4>
-                <button class="px-8 py-2 bg-blue-400 font-semibold rounded" type="submit">20</button>
-
+                <input class="bg-zinc-300" type="number" name="" style="max-width: 100px;"  id="save">
                 <p class="py-2">%</p>
-                <button class="px-8 py-2 bg-blue-400 font-semibold text-white rounded" type="submit">Save</button>
+                <button class="px-8 py-2 bg-blue-400 font-semibold text-white rounded" type="submit" id="save-btn">Save</button>
             </div>
-            <h3 class="font-bold  text-center my-5">Saving Amount : <span>0</span></h3>
-            <h3 class="font-bold  text-center my-5">Remaining Balance : <span>0</span></h3>
+            <h3 class="font-bold  text-center my-5">Saving Amount : <span id="saving-amount">0</span></h3>
+            <h3 class="font-bold  text-center my-5">Remaining Balance : <span id="ramaining-balance">0</span></h3>
         </div>
 
     </main>
